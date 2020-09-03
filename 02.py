@@ -64,7 +64,7 @@ while i<60:
     i+=1
 
 
-#for遍历所有元素的值，可以遍历数组、元组
+#for——遍历数组、元组
 grade=[80,92,88,26,71,66,99,54]
 passgrade=[]
 failgrade=[]
@@ -77,7 +77,7 @@ print(passgrade)
 print(failgrade)
 
 
-#遍历字典
+#for——遍历字典
 grade={"wwh":90,"bzj":94,"aaa":47,"bbb":59}
 passgrade={}
 failgrade={}
@@ -100,7 +100,7 @@ print(passgrade)
 print(failgrade)       
 
 
-#遍历字符串
+#for——遍历字符串
 a = "小王加油鸭"
 for i in a:
     print(i)
@@ -110,10 +110,16 @@ a=["王文灏","bzj","小乔","林阳","浪老师","流云老师","xixi","mama",
 for i in a:
     print(i)
 
+
+#range
 for i in range(len(a)):
     print(a[i])
 '''
 
+
+# 作业：
+# b = [{"username":"郭子", "password":"123456"}, {"username":"小玉", "password":"123456"},]
+# 输入一个账号和密码，如果b中存在这个账号，那就注册失败，如果b中没有这个账号，就到b里面去添加账号和密码
 b = [{"username":"郭子", "password":"123456"}, {"username":"小玉", "password":"123456"},]
 succ_register=True
 uname=input("请输入账号")
