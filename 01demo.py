@@ -1,12 +1,12 @@
-'''
+
 #字符串操作
 print("hello",end="   ")
 print("world")
 print("这里是王文灏",213163344,"东南大学")    #print的内容可以用，相连
-print("嘻嘻"+"哈哈")    #字符串相加是拼接的效果
-print("嘻嘻"*2)         #字符串×数字表次数
+print("嘻嘻"+"哈哈")        #字符串相加是拼接的效果
+print("嘻嘻"*2)             #字符串×数字表次数
 
-print(10//3)    #取整
+print(10//3)                #取整
 print("2的3次方=",2**3)     #幂
 print(1>3 or 1==1)
 
@@ -29,8 +29,10 @@ print("a+b=",a+b)
 
 #计算输入字数是单数还是双数
 #len_a = len(input("请输入字符串："))
-#if len_a%2 == 0  print("输入字符串长度为双")
-#if len_a%2 == 1  print("输入字符串长度为单")
+#if len_a%2 == 0:
+#   print("输入字符串长度为双")
+#if len_a%2 == 1:
+#   print("输入字符串长度为单")
 
 
 #元组
@@ -80,7 +82,7 @@ print("sort应用——数组d为：",d)
 d.sort(reverse=True)
 print("倒序sort应用——数组d为：",d)
 
-'''
+
 #字典key-value
 #没有下标的概念，即无顺序，取值靠key
 a={"name":"maggie","age":22,"tel":"18651626207"}
