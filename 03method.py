@@ -1,8 +1,7 @@
-'''
 def minus(s1=0,s2=0):
     res=s1-s2
     return res
-res1=minus(7,9)
+'''res1=minus(7,9)
 res2=minus()
 print(res1,res2)
 
