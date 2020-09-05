@@ -28,7 +28,7 @@ print("产生0-10的随机数'{}'".format(c))
 
 
 from tools.dbtools import query
-from method03 import *
+from o3method import *
 
 if __name__=="__main__":
     print("计算2-8={}".format(minus(2,8)))
